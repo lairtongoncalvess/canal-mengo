@@ -1,0 +1,41 @@
+name: Canal Mengao
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # a cada 15 minutos (o GitHub pode atrasar alguns minutos)
+  workflow_dispatch:          # botao "Run workflow" para testar na mao
+
+concurrency:
+  group: canal-mengao
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # necessario para salvar o state.json
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Rodar o canal
+        env:
+          BSD_TOKEN: ${{ secrets.BSD_TOKEN }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ vars.TG_CHAT }}
+          APP_LINK: ${{ vars.APP_LINK }}
+          DRY_RUN: ${{ vars.DRY_RUN }}
+        run: node run.js
+
+      - name: Salvar estado
+        if: always()
+        run: |
+          git config user.name "canal-bot"
+          git config user.email "canal-bot@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || (git commit -m "atualiza estado" && git push)
