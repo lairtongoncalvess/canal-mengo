@@ -23,6 +23,10 @@
     "65:injured": {
       "id": 65,
       "name": "Léo Ortiz"
+    },
+    "53:suspended": {
+      "id": 53,
+      "name": "Jorginho"
     }
   },
   "finals": [
