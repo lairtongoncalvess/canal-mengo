@@ -1,16 +1,8 @@
 {
   "unavailable": {
-    "48:injured": {
-      "id": 48,
-      "name": "Guillermo Varela"
-    },
     "66:injured": {
       "id": 66,
       "name": "Ayrton Lucas"
-    },
-    "7314:injured": {
-      "id": 7314,
-      "name": "Anthony Valencia"
     },
     "55:injured": {
       "id": 55,
@@ -19,10 +11,6 @@
     "67:injured": {
       "id": 67,
       "name": "Evertton Araujo"
-    },
-    "65:injured": {
-      "id": 65,
-      "name": "Léo Ortiz"
     },
     "53:suspended": {
       "id": 53,
