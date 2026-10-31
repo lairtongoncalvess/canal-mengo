@@ -12,10 +12,6 @@
       "id": 7314,
       "name": "Anthony Valencia"
     },
-    "62:injured": {
-      "id": 62,
-      "name": "Saúl Ñíguez"
-    },
     "51:injured": {
       "id": 51,
       "name": "Alex Sandro"
@@ -23,6 +19,10 @@
     "59:suspended": {
       "id": 59,
       "name": "Gonzalo Plata"
+    },
+    "1642:injured": {
+      "id": 1642,
+      "name": "Lucas Paquetá"
     }
   },
   "finals": [
