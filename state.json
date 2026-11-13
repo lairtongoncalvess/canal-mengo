@@ -1,8 +1,12 @@
 {
   "unavailable": {
-    "49:injured": {
-      "id": 49,
-      "name": "Danilo"
+    "7314:injured": {
+      "id": 7314,
+      "name": "Anthony Valencia"
+    },
+    "59:injured": {
+      "id": 59,
+      "name": "Gonzalo Plata"
     }
   },
   "finals": [
