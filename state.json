@@ -7,6 +7,14 @@
     "61:injured": {
       "id": 61,
       "name": "Nicolás de la Cruz"
+    },
+    "50:suspended": {
+      "id": 50,
+      "name": "Léo Pereira"
+    },
+    "52:suspended": {
+      "id": 52,
+      "name": "Erick Pulgar"
     }
   },
   "finals": [
