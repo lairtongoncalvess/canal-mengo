@@ -4,21 +4,9 @@
       "id": 7314,
       "name": "Anthony Valencia"
     },
-    "59:injured": {
-      "id": 59,
-      "name": "Gonzalo Plata"
-    },
     "61:injured": {
       "id": 61,
       "name": "Nicolás de la Cruz"
-    },
-    "49:injured": {
-      "id": 49,
-      "name": "Danilo"
-    },
-    "1642:injured": {
-      "id": 1642,
-      "name": "Lucas Paquetá"
     }
   },
   "finals": [
@@ -29,7 +17,8 @@
     604473,
     7307,
     7323,
-    7328
+    7328,
+    7337
   ],
   "reminded": [
     7282,
