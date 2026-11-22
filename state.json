@@ -1,14 +1,5 @@
 {
-  "unavailable": {
-    "50:suspended": {
-      "id": 50,
-      "name": "Léo Pereira"
-    },
-    "52:suspended": {
-      "id": 52,
-      "name": "Erick Pulgar"
-    }
-  },
+  "unavailable": {},
   "finals": [
     7282,
     7288,
